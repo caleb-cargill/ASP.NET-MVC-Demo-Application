@@ -11,15 +11,13 @@ Initial Setup:
 	b) Microsoft.EntityFrameworkCore.SqlServer
 	c) Microsoft.EntityFrameworkCore.Design
  2) Open Package Manager Console and run the following commands
-	a) add-migration AddJokeTableToDB
-		i) You should see a script added to the "Migrations" folder. This will be used to update the DB
-	b) update-database
+	a) update-database
 		i) open "SQL Server Object Explorer" in Visual Studio and Refresh
 		ii) expand "(localdb)\MSSQLLocalDB ..." 
 		iii) expand "Databases"
 		iv) expand "JokeMVCWebApp"
 		v) expand "Tables" and you can look at the added "dbo.Jokes"
-	c) Database is now all set!	
+	b) Database is now all set!	
 
 Checklist of Items to Take Care of To Add a "Puns" Section
 - [ ] Create a 'Pun' Model
